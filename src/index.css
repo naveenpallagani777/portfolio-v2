@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@layer base {
+    :root {
+      --font-sourceSans: 'Source Sans 3', sans-serif;
+      --font-Merriweather: 'Merriweather', serif;
+    }
+}
+@layer components {
+    .font-sourceSans {
+        font-family: var(--font-sourceSans);
+    }
+    .font-Merriweather {
+        font-family: var(--font-Merriweather);
+    }
+}
+@import "tailwindcss";
+
+
