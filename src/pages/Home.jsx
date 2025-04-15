@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import profilePic from '../assets/images/profile-pic.jpeg';
-
+import Resume from '../assets/pdf/NaveenPallaganiResumeSD.pdf';
 function Home() {
 	return (
 		<div className="relative w-full min-h-screen overflow-hidden">
@@ -45,6 +45,15 @@ function Home() {
 					/>
 				</div>
 
+			</div>
+			<div className='w-full flex justify-center mb-12 mt-6'>
+				<a
+					target='_blank'
+					href={Resume}
+					className='mx-auto bg-blue-500 text-white font-bold py-4 px-8 rounded-md shadow-lg hover:bg-blue-600 transition duration-300'
+				>
+					Veiw Resume
+				</a>
 			</div>
 		</div>
 	);
