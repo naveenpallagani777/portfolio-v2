@@ -1,5 +1,4 @@
 import React from 'react';
-import CodeZlabsLogo from "../assets/images/codezlabs-logo.jpeg";
 import { experienceData } from '../assets/json/experienceData';
 import ExperienceDetails from '../components/ExperienceDetails';
 

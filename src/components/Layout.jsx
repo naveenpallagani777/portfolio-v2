@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import PnkLogo from "../assets/pnk-logo.png";
 import NavBarWebView from "./NavBarWebView";
 import bgVideo from "../assets/videos/bgVideo.mp4";
 import NavBarMobileView from "./NavBarMobileView";
@@ -29,7 +28,11 @@ function Layout() {
                     NAVEEN KUMAR PALLAGANI
                 </h1>
                 <h2 className="text-2xl md:text-6xl font-extrabold mt-4">PORTFOLIO</h2>
-                <img className="w-32 h-32 md:w-64 md:h-60 object-cover mt-4" src={PnkLogo} alt="Portfolio Logo" />
+                <img 
+                    className="w-32 h-32 md:w-64 md:h-60 object-cover mt-4" 
+                    src="./assets/pnk-logo.png"
+                    alt="Portfolio Logo" 
+                />
                 <div className="fixed md:hidden top-0 right-0 text-white flex justify-end items-center gap-1.5 p-8">
                     <MdOutlineMenuOpen />
                     <button onClick={() => setIsOpen(!isOpen)} className=" font-extrabold">

@@ -1,6 +1,5 @@
 // src/pages/Home.js
 import React from 'react';
-import profilePic from '../assets/images/profile-pic.jpeg';
 import Resume from '../assets/pdf/NaveenPallaganiResumeSD.pdf';
 function Home() {
 	return (
@@ -36,10 +35,10 @@ function Home() {
 				<div className='relative h-[450px] md:h-[650px] flex justify-center items-center mt-8 py-8'>
 					<div
 						className="absolute h-full inset-0 bg-cover bg-center -z-30 blur-sm opacity-60"
-						style={{ backgroundImage: `url(${profilePic})` }}
+						style={{ backgroundImage: `url(./assets/images/profile-pic.jpeg)` }}
 					/>
 					<img
-						src={profilePic}
+						src="./assets/images/profile-pic.jpeg"
 						alt="profile pic"
 						className='w-[300px] sm:hover:w-[350px] md:w-[450px] md:hover:w-[550px]  rounded-2xl shadow-lg transition-all duration-500 ease-in-out'
 					/>

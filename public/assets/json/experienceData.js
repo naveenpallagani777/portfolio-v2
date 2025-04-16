@@ -1,3 +1,5 @@
+import CodeZlabsLogo from "../images/codezlabs-logo.jpeg";
+
 export const experienceData = [
     {
         company: "Codezlabs Pvt. Ltd.",
@@ -13,7 +15,7 @@ export const experienceData = [
                 description: "Developed responsive user interfaces with React.js and implemented API integrations using Node.js and Express.js, ensuring seamless performance across devices and real-time data functionality. Styled front-end components with Tailwind CSS, creating a clean and efficient design system that accelerated development speed and maintained design consistency across the application.",
             },
         ],
-        logo: "./assets/images/codezlabs-logo.jpeg",
+        logo: CodeZlabsLogo,
         location: "Remote",
         technologies: ["Next.js", "React.js", "Node.js", "Express.js", "Tailwind CSS"],
         projects: [],
