@@ -98,7 +98,7 @@ export const aboutData = {
             name: "Introduction to Databases",
             provided_by: "NxtWave",
             link: "https://certificates.ccbp.in/intensive/introduction-to-databases?id=RLIVLFWEJT",
-            image: './assets/images/certifications/introductionToDatabases.jpg',
+            image: './assets/images/certifications/introductionToDatabases.png',
             technologies: "SQL"
         },
         {
