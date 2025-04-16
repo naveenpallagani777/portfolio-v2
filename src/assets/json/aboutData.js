@@ -119,14 +119,14 @@ export const aboutData = {
             name: "JavaScript Essentials",
             provided_by: "NxtWave",
             link: "https://certificates.ccbp.in/intensive/javascript-essentials?id=WFAKCLDCDC",
-            image: './assets/images/certifications/javascriptEssentials.jpg',
+            image: './assets/images/certifications/javaScriptEssentials.jpg',
             technologies: "JavaScript"
         },
         {
             name: "Responsive Web Design Using Flexbox",
             provided_by: "NxtWave",
             link: "https://certificates.ccbp.in/intensive/flexbox?id=PWZQKRGRFM",
-            image: './assets/images/certifications/responsiveWebDesignUsingFlexbox.jpg',
+            image: './assets/images/certifications/responsiveWebDesignusingFlexbox.jpg',
             technologies: "Flexbox"
         },
         {
