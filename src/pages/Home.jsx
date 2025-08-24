@@ -31,6 +31,15 @@ function Home() {
 						commitment to excellence</strong>. I thrive on <strong>solving complex problems</strong> and am eager to leverage my skills
 					to <strong>build impactful software solutions</strong> that enhance user experiences and drive efficiency.
 				</p>
+				<div className='w-full flex justify-center mb-12 mt-6'>
+					<a
+						target='_blank'
+						href={Resume}
+						className='mx-auto bg-blue-500 text-white font-bold py-4 px-8 rounded-md shadow-lg hover:bg-blue-600 transition duration-300'
+					>
+						Veiw Resume
+					</a>
+				</div>
 				{/* profile image */}
 				<div className='relative h-[450px] md:h-[650px] flex justify-center items-center mt-8 py-8'>
 					<div
@@ -44,15 +53,6 @@ function Home() {
 					/>
 				</div>
 
-			</div>
-			<div className='w-full flex justify-center mb-12 mt-6'>
-				<a
-					target='_blank'
-					href={Resume}
-					className='mx-auto bg-blue-500 text-white font-bold py-4 px-8 rounded-md shadow-lg hover:bg-blue-600 transition duration-300'
-				>
-					Veiw Resume
-				</a>
 			</div>
 		</div>
 	);

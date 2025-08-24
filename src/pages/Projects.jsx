@@ -24,10 +24,10 @@ const Projects = () => {
                 {projectsData.map((project, index) => (
                     <div
                         key={index}
-                        className="rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow mb-6 bg-white"
+                        className="rounded-lg p-6 transition-shadow mb-6 bg-white"
                     >
                         <div className='flex items-center'>
-                            <h2 className="text-lg md:text-2xl font-semibold text-gray-800">
+                            <h2 className="text-xl md:text-3xl font-semibold text-left my-0 font-sourceSans">
                                 {project.name}
                             </h2>
                             <div className='flex items-center ml-auto'>
@@ -58,10 +58,10 @@ const Projects = () => {
                         <p className="text-sm text-gray-400 italic mb-1 line-clamp-1">
                             {project.technologies.join(', ')}
                         </p>
-                        <hr className="h-0.5 bg-gray-200 mb-2" />
+                        <hr className="mb-4 h-0.75 bg-black" />
                         <ImagesSlider images={project.images} />
                         <h3 className="text-lg font-bold mt-4 md:mt-6 mb-2 text-gray-800">Description</h3>
-                        <div className={expanded[index] ? '' : 'line-clamp-4'}>
+                        <div className={expanded[index] ? '' : 'line-clamp-2'}>
                             {project.description.map((desc, descIndex) => (
                                 <p
                                     key={descIndex}
@@ -71,13 +71,13 @@ const Projects = () => {
                                 </p>
                             ))}
                         </div>
-                        <div className='w-full flex justify-end'>
+                        <div className='w-full'>
                             {project.description.length > 1 && (
                                 <button
                                     onClick={() => toggleDescription(index)}
-                                    className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                                    className="text-blue-600 transition-colors"
                                 >
-                                    {expanded[index] ? 'Less' : 'More'}
+                                    {expanded[index] ? '...less' : '...more'}
                                 </button>
                             )}
                         </div>
